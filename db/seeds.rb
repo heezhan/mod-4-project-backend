@@ -33,9 +33,9 @@ Exercise.create(name: "T-Bar Rows", video_url: "https://www.youtube.com/embed/sw
 Exercise.create(name: "Seated Cable Rows", video_url: "https://www.youtube.com/embed/GZbfZ033f74", exercise_type: "Weight Lifting", muscle_group: "Back")
 
 #SHOULDER 
-ex4 = Exercise.create(name: "Overhead Machine Press", video_url: "https://www.youtube.com/embed/Wqq43dKW1TU", exercise_type: "Weight Lifting", muscle_group: "Shoulder")
-Exercise.create(name: "Arnold Press", video_url: "https://www.youtube.com/embed/3ml7BH7mNwQ", exercise_type: "Weight Lifting", muscle_group: "Shoulder")
-Exercise.create(name: "Upright Rows", video_url: "https://www.youtube.com/embed/VIoihl5ZZzM", exercise_type: "Weight Lifting", muscle_group: "Shoulder")
+ex4 = Exercise.create(name: "Overhead Machine Press", video_url: "https://www.youtube.com/embed/Wqq43dKW1TU", exercise_type: "Weight Lifting", muscle_group: "Shoulders")
+Exercise.create(name: "Arnold Press", video_url: "https://www.youtube.com/embed/3ml7BH7mNwQ", exercise_type: "Weight Lifting", muscle_group: "Shoulders")
+Exercise.create(name: "Upright Rows", video_url: "https://www.youtube.com/embed/VIoihl5ZZzM", exercise_type: "Weight Lifting", muscle_group: "Shoulders")
 
 #QUADRICEPS
 ex5 = Exercise.create(name: "Squat", video_url: "https://www.youtube.com/embed/ultWZbUMPL8", exercise_type: "Weight Lifting", muscle_group: "Quadriceps")
@@ -50,10 +50,10 @@ Exercise.create(name: "Lying Leg Curl", video_url: "https://www.youtube.com/embe
 #BICEPS
 ex7 = Exercise.create(name: "Dubbell Bicep Curl", video_url: "https://www.youtube.com/embed/cBSD6mQIPQk", exercise_type: "Weight Lifting", muscle_group: "Biceps")
 Exercise.create(name: "Hammer Curl", video_url: "https://www.youtube.com/embed/TwD-YGVP4Bk", exercise_type: "Weight Lifting", muscle_group: "Biceps")
-Exercise.create(name: "Concentration Curl", video_url: "https://www.youtube.com/embed/0AUGkch3tzc", exercise_type: "Weight Lifting", muscle_group: "Bicep")
+Exercise.create(name: "Concentration Curl", video_url: "https://www.youtube.com/embed/0AUGkch3tzc", exercise_type: "Weight Lifting", muscle_group: "Biceps")
 
 #TRICEPS
-ex8 = Exercise.create(name: "Dips", video_url: "https://www.youtube.com/embed/2z8JmcrW-As", exercise_type: "Body Weight", muscle_group: "Tricep")
+ex8 = Exercise.create(name: "Dips", video_url: "https://www.youtube.com/embed/2z8JmcrW-As", exercise_type: "Body Weight", muscle_group: "Triceps")
 Exercise.create(name: "Skull Crusher", video_url: "https://www.youtube.com/embed/BdqzYZmL2Bc", exercise_type: "Weight Lifting", muscle_group: "Triceps")
 Exercise.create(name: "Tricep Dumbbell Extension", video_url: "https://www.youtube.com/embed/nRiJVZDpdL0", exercise_type: "Weight Lifting", muscle_group: "Triceps")
 
