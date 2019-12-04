@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   resources :exercises, only: [:index]
   resources :routines, only: [:create]
   resources :routine_exercises, only: [:create]
+
+  post '/login', to: 'users#login'
+  
 end
