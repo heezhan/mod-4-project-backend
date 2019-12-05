@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   resources :routine_exercises, only: [:create]
 
   post '/login', to: 'users#login'
-  
+  post '/finduser', to: 'users#finduser'
 end
