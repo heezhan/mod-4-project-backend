@@ -16,8 +16,10 @@ class UsersController < ApplicationController
 
     def serialize
         {
+            :include => { :routines => {:include => [:exercises] } },
             :only => [:username, :id]
         }
     end
 
 end
+ 
