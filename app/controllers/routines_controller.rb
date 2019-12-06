@@ -5,6 +5,11 @@ class RoutinesController < ApplicationController
     render json: routine.to_json(serialize)
   end
 
+  def destroy
+    routine = Routine.find(params[:id])
+    routine.destroy
+  end 
+
   private 
   def serialize
     {

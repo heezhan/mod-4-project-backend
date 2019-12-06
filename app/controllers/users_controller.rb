@@ -2,13 +2,13 @@ class UsersController < ApplicationController
 
     def login
         user = User.find_by(username: params[:username])
-        
-        # user.password === params[:password] ? render json: user : null
 
         if user && (user.password === params[:password])
             render json: user.to_json(serialize)
         else
-            null
+            newUser = User.create(username: params[:username], password: params[:password])
+
+            render json: newUser.to_json(serialize)
         end 
     end 
 
