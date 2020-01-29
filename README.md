@@ -1,24 +1,12 @@
-# README
+# Exercise Routine Planner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web app with how-to workout videos to help users streamline their daily exercise routines.
 
-Things you may want to cover:
+A user can log in or create an account.
+Upon logging in, the user is directed to a page with workout videos that they can filter by muscle groups using the radio buttons.
+The user is able to view more information about the workout video by clicking on the Show Details button, which leads to a details page.
+The user is able to title a routine and select however many videos to create a new routine.
+When a new routine is created, the user is directed to the My Routines page which has a list of all their routines by title and date created.
+When the user clicks on a routine title, it goes to a page with all the workout videos that the user has selected for that routine.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created using React front-end and Ruby on Rails back-end
