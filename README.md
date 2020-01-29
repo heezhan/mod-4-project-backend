@@ -10,3 +10,5 @@ When a new routine is created, the user is directed to the My Routines page whic
 When the user clicks on a routine title, it goes to a page with all the workout videos that the user has selected for that routine.
 
 Created using React front-end and Ruby on Rails back-end
+
+Link to front-end: https://github.com/grahamflas/mod-4-project-front-end
