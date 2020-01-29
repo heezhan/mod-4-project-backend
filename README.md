@@ -1,4 +1,4 @@
-# Exercise Routine Planner
+# Workout Planner
 
 A web app with how-to workout videos to help users streamline their daily exercise routines.
 
