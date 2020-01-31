@@ -1,6 +1,6 @@
 # Workout Planner
 
-A web app with how-to workout videos to help users streamline their daily exercise routines.
+A single page web application with how-to workout videos to help users streamline their daily exercise routines.
 
 A user can log in or create an account.
 Upon logging in, the user is directed to a page with workout videos that they can filter by muscle groups using the radio buttons.
